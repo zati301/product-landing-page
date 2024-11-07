@@ -1,0 +1,285 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  * {
+    font-family: "Libre Franklin", sans-serif;
+  }
+  
+  /* HEADER */
+  
+  #header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  #header-img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .icons {
+    font-size: 1.8rem;
+  }
+  
+  #nav-bar {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  
+  #nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #nav-bar ul li {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 50px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #ebf2fa;
+    padding: 7px;
+    border-radius: 15px;
+  }
+  
+  .nav-link:hover {
+    background-color: #2b2d42;
+  }
+  
+  /* MAIN BODY */
+  
+  section {
+    
+    margin-bottom: 10px;
+  }
+  
+  .section-banner {
+    display: block;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  /*
+  main h2 {
+    background-color: #2b2d42DD;
+    color: #ebf2fa;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px;
+  }
+  */
+  
+  main h2 {
+    text-align: center;
+    letter-spacing: 2px;;
+    line-height: 100px;
+  }
+  
+  main p {
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  main address {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  /** SMARTPHONES SECTION **/
+  
+  #slogan, .section-header {
+    font-size: 42px;
+    letter-spacing: 1.5px; 
+    text-align: center;
+  }
+  
+  #slogan {
+    line-height: 120px;
+  }
+  
+  .phone h3, .watch h3 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #slogan, .phone, .watch {
+    background-color: #dce0d988;
+  }
+  
+  #video {
+    width: 500;
+    height: 400;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #phone-lineups, #watch-lineups {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #phone-lineups {
+    flex-direction: column;
+  }
+  
+  #watch-lineups {
+    flex-direction: row;
+  }
+  
+  .phone, .watch {
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+    padding-top: 25px;
+  }
+  
+  .phone img, .watch img {
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px #000000CC;
+  }
+  
+  .phone img {
+    width: 500;
+  }
+  
+  .watch img {
+     width: 300;
+  }
+  
+  .phone p, .watch p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5rem;
+  }
+  
+  /** SMARTWATCHES SECTION **/
+  
+  #Smartwatches h2 {
+    margin-bottom: -40px;
+  }
+  
+  .subtitle {
+    color: #102542;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+  
+  }
+  
+  /** CUSTOMER SUPPORT SECTION **/
+  
+  
+  /*** FORM ***/
+  
+  #sign-in-form {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  form input, textarea {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 4px;
+    width: 100%;
+  }
+  
+  form input {
+    margin-top: 5px;
+  }
+  
+  textarea {
+    margin-top: 10px;
+  }
+  
+  form input[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: 10px auto 0 auto;
+    font-size: 22px;
+  }
+  
+  /* FOOTER */
+  
+  #footer-container {
+    margin-top: 70px;
+    height: auto;
+    padding: 20px;
+    background-color: #dce0d988;
+  }
+  
+  footer p {
+    text-align: center;
+    
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  
+  
+  @media only screen and (max-width: 500px) {
+    #header-img{
+      width: 23%;
+      margin-right: 20px;
+    }
+  
+    #nav-bar ul li {
+      font-size: 14px;
+    }
+  
+    #slogan {
+      font-size: 26px;
+      line-height: 80px;
+    }
+  
+    #video {
+      width: 400;
+      height: 300;
+    }
+  
+    .section-header {
+      font-size: 26px;
+      line-height: 50px;
+    }
+  
+    .phone img {
+    width: 300;
+    }
+  
+    .watch img {
+     width: 200;
+    }
+  
+    .phone p, .watch p {
+      font-size: 18px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
